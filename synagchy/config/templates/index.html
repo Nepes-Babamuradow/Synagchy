@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="tk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synagchy — Talyp Platformasy</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+<header>
+        <div class="logo">📚 Synagchy</div>
+        <nav>
+            <button class="nav-btn active" data-tab="universities">Universitetler</button>
+            <button class="nav-btn" data-tab="faculties">Fakultetler</button>
+            <button class="nav-btn" data-tab="specialties">Hünärler</button>
+            <button class="nav-btn" data-tab="exams">Synaglar</button>
+<button class="nav-btn" data-tab="subjects">Dersler</button>
+            <button class="nav-btn" data-tab="lectures">Leksiýalar</button>
+            <button class="nav-btn" data-tab="questions">Sowalnama</button>
+            <button class="nav-btn" data-tab="rating">Reyting</button>
+            <button class="nav-btn" data-tab="subscription">Abuna</button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Universities -->
+        <section id="universities" class="tab active">
+            <h2>Universitetler</h2>
+            <div class="grid" id="university-grid"></div>
+        </section>
+
+        <!-- Faculties -->
+        <section id="faculties" class="tab">
+            <h2>Fakultetler</h2>
+            <div class="grid" id="faculty-grid"></div>
+        </section>
+
+        <!-- Specialties -->
+        <section id="specialties" class="tab">
+            <h2>Hünärler</h2>
+            <div class="grid" id="specialty-grid"></div>
+        </section>
+
+        <!-- Exams -->
+        <section id="exams" class="tab">
+            <h2>Giris synaglary</h2>
+            <div class="grid" id="exam-grid"></div>
+        </section>
+
+        <!-- Subjects -->
+        <section id="subjects" class="tab">
+            <h2>Dersler</h2>
+            <div class="grid" id="subject-grid"></div>
+        </section>
+
+<!-- Lectures -->
+        <section id="lectures" class="tab">
+            <h2>Leksiýalar</h2>
+            <div id="lecture-area"></div>
+        </section>
+
+        <!-- Questions -->
+        <section id="questions" class="tab">
+            <h2>Sowalnama</h2>
+            <div id="question-area"></div>
+        </section>
+
+        <!-- Rating -->
+        <section id="rating" class="tab">
+            <h2>Reyting tablisasy</h2>
+            <table id="rating-table">
+                <thead>
+                    <tr>
+                        <th>Orun</th>
+                        <th>Ulanyjy</th>
+                        <th>Reyting</th>
+                        <th>Yenillik</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </section>
+
+        <!-- Subscription -->
+        <section id="subscription" class="tab">
+            <h2>Abuna Yenillikleri</h2>
+            <div class="grid" id="subscription-grid">
+                <div class="plan-card">
+                    <h3>1-nji orun</h3>
+                    <p>50% yenillik</p>
+                </div>
+                <div class="plan-card">
+                    <h3>2-nji orun</h3>
+                    <p>30% yenillik</p>
+                </div>
+                <div class="plan-card">
+                    <h3>3-nji orun</h3>
+                    <p>20% yenillik</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="/static/js/app.js"></script>
+</body>
+</html>

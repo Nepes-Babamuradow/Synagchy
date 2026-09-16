@@ -1,0 +1,1832 @@
+[06/Aug/2026 21:51:44] "GET / HTTP/1.1" 200 3479
+[06/Aug/2026 21:52:08] "GET /admin/ HTTP/1.1" 302 0
+[06/Aug/2026 21:52:08] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4173
+[06/Aug/2026 21:52:09] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[06/Aug/2026 21:52:09] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[06/Aug/2026 21:52:09] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[06/Aug/2026 21:52:09] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[06/Aug/2026 21:52:09] "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[06/Aug/2026 21:52:09] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[06/Aug/2026 21:52:09] "GET /static/admin/css/login.css HTTP/1.1" 200 951
+Not Found: /favicon.ico
+[06/Aug/2026 21:52:10] "GET /favicon.ico HTTP/1.1" 404 6971
+[06/Aug/2026 21:52:20] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4341
+[06/Aug/2026 21:52:33] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4341
+[06/Aug/2026 21:53:19] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4341
+[06/Aug/2026 21:55:59] "GET /admin/ HTTP/1.1" 302 0
+[06/Aug/2026 21:55:59] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4173
+[06/Aug/2026 21:56:24] "POST /graphql/ HTTP/1.1" 200 30
+[06/Aug/2026 21:57:03] "GET / HTTP/1.1" 200 3479
+[06/Aug/2026 21:57:04] "GET /static/css/style.css HTTP/1.1" 200 5696
+[06/Aug/2026 21:57:04] "GET /static/js/app.js HTTP/1.1" 200 15871
+[06/Aug/2026 21:57:04] "POST /graphql/ HTTP/1.1" 200 30
+[06/Aug/2026 21:57:04] "POST /graphql/ HTTP/1.1" 200 27
+[06/Aug/2026 21:57:04] "POST /graphql/ HTTP/1.1" 200 23
+[06/Aug/2026 21:57:04] "POST /graphql/ HTTP/1.1" 200 29
+Not Found: /favicon.ico
+[06/Aug/2026 21:57:04] "GET /favicon.ico HTTP/1.1" 404 6966
+[06/Aug/2026 21:57:04] "POST /graphql/ HTTP/1.1" 200 26
+[06/Aug/2026 21:57:04] "POST /graphql/ HTTP/1.1" 200 24
+[06/Aug/2026 22:01:39] "POST /graphql/ HTTP/1.1" 200 654
+[06/Aug/2026 22:01:45] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4341
+[06/Aug/2026 22:02:07] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[06/Aug/2026 22:02:07] "GET /admin/ HTTP/1.1" 200 12524
+[06/Aug/2026 22:02:07] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[06/Aug/2026 22:02:07] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[06/Aug/2026 22:02:07] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[06/Aug/2026 22:02:10] "GET / HTTP/1.1" 200 3479
+[06/Aug/2026 22:02:11] "POST /graphql/ HTTP/1.1" 200 708
+[06/Aug/2026 22:02:11] "POST /graphql/ HTTP/1.1" 200 622
+[06/Aug/2026 22:02:11] "POST /graphql/ HTTP/1.1" 200 560
+[06/Aug/2026 22:02:11] "POST /graphql/ HTTP/1.1" 200 465
+Not Found: /favicon.ico
+[06/Aug/2026 22:02:11] "GET /favicon.ico HTTP/1.1" 404 6966
+[06/Aug/2026 22:02:11] "POST /graphql/ HTTP/1.1" 200 272
+Cannot return null for non-nullable field RatingEntry.discount.
+
+GraphQL request:1:40
+1 | { rating { rank userId username rating discount } }
+  |                                        ^
+Traceback (most recent call last):
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\graphql\execution\execute.py", line 581, in execute_field
+    completed = self.complete_value(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\graphql\execution\execute.py", line 662, in complete_value
+    raise TypeError(
+TypeError: Cannot return null for non-nullable field RatingEntry.discount.
+[06/Aug/2026 22:02:11] "POST /graphql/ HTTP/1.1" 200 183
+[06/Aug/2026 22:02:16] "POST /graphql/ HTTP/1.1" 200 622
+[06/Aug/2026 22:02:18] "POST /graphql/ HTTP/1.1" 200 560
+[06/Aug/2026 22:02:19] "POST /graphql/ HTTP/1.1" 200 254
+[06/Aug/2026 22:02:19] "POST /graphql/ HTTP/1.1" 200 254
+[06/Aug/2026 22:02:19] "POST /graphql/ HTTP/1.1" 200 254
+[06/Aug/2026 22:02:20] "POST /graphql/ HTTP/1.1" 200 152
+[06/Aug/2026 22:02:20] "POST /graphql/ HTTP/1.1" 200 152
+[06/Aug/2026 22:02:23] "POST /graphql/ HTTP/1.1" 200 33
+[06/Aug/2026 22:02:23] "POST /graphql/ HTTP/1.1" 200 33
+[06/Aug/2026 22:02:25] "POST /graphql/ HTTP/1.1" 200 472
+[06/Aug/2026 22:02:38] "GET /admin/ HTTP/1.1" 200 12524
+[06/Aug/2026 22:02:45] "GET /admin/app/user/ HTTP/1.1" 200 17694
+[06/Aug/2026 22:02:45] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[06/Aug/2026 22:02:45] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[06/Aug/2026 22:02:45] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[06/Aug/2026 22:02:45] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[06/Aug/2026 22:02:45] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[06/Aug/2026 22:02:45] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[06/Aug/2026 22:02:45] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[06/Aug/2026 22:02:45] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[06/Aug/2026 22:02:45] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[06/Aug/2026 22:02:45] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+[06/Aug/2026 22:02:45] "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+[06/Aug/2026 22:02:45] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+[06/Aug/2026 22:02:46] "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+[06/Aug/2026 22:02:46] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[06/Aug/2026 22:02:46] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[06/Aug/2026 22:02:46] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+[06/Aug/2026 22:02:46] "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+[06/Aug/2026 22:02:49] "GET /admin/app/user/2/change/ HTTP/1.1" 200 31815
+[06/Aug/2026 22:02:49] "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+[06/Aug/2026 22:02:49] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[06/Aug/2026 22:02:49] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+[06/Aug/2026 22:02:49] "GET /static/admin/js/SelectBox.js HTTP/1.1" 304 0
+[06/Aug/2026 22:02:49] "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 304 0
+[06/Aug/2026 22:02:49] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[06/Aug/2026 22:02:49] "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[06/Aug/2026 22:02:49] "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[06/Aug/2026 22:02:49] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[06/Aug/2026 22:02:49] "GET /static/admin/img/selector-icons.svg HTTP/1.1" 304 0
+[06/Aug/2026 22:02:49] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+[06/Aug/2026 22:02:49] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+[06/Aug/2026 22:03:17] "POST /admin/app/user/2/change/ HTTP/1.1" 302 0
+[06/Aug/2026 22:03:17] "GET /admin/app/user/ HTTP/1.1" 200 17890
+[06/Aug/2026 22:03:17] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[06/Aug/2026 22:04:31] "GET /admin/ HTTP/1.1" 200 12898
+[06/Aug/2026 22:04:33] "GET / HTTP/1.1" 200 3479
+[06/Aug/2026 22:04:33] "GET /static/css/style.css HTTP/1.1" 200 5696
+[06/Aug/2026 22:04:33] "GET /static/js/app.js HTTP/1.1" 200 15871
+[06/Aug/2026 22:04:33] "POST /graphql/ HTTP/1.1" 200 622
+[06/Aug/2026 22:04:33] "POST /graphql/ HTTP/1.1" 200 708
+[06/Aug/2026 22:04:33] "POST /graphql/ HTTP/1.1" 200 560
+Cannot return null for non-nullable field RatingEntry.discount.
+
+GraphQL request:1:40
+1 | { rating { rank userId username rating discount } }
+  |                                        ^
+Traceback (most recent call last):
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\graphql\execution\execute.py", line 581, in execute_field
+    completed = self.complete_value(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\graphql\execution\execute.py", line 662, in complete_value
+    raise TypeError(
+TypeError: Cannot return null for non-nullable field RatingEntry.discount.
+[06/Aug/2026 22:04:33] "POST /graphql/ HTTP/1.1" 200 183
+[06/Aug/2026 22:04:33] "POST /graphql/ HTTP/1.1" 200 272
+[06/Aug/2026 22:04:33] "POST /graphql/ HTTP/1.1" 200 465
+[06/Aug/2026 22:04:36] "POST /graphql/ HTTP/1.1" 200 622
+[06/Aug/2026 22:04:36] "POST /graphql/ HTTP/1.1" 200 560
+[06/Aug/2026 22:04:37] "POST /graphql/ HTTP/1.1" 200 254
+[06/Aug/2026 22:04:37] "POST /graphql/ HTTP/1.1" 200 254
+[06/Aug/2026 22:04:39] "POST /graphql/ HTTP/1.1" 200 622
+[06/Aug/2026 22:04:41] "POST /graphql/ HTTP/1.1" 200 622
+[06/Aug/2026 22:04:41] "POST /graphql/ HTTP/1.1" 200 560
+[06/Aug/2026 22:04:43] "POST /graphql/ HTTP/1.1" 200 622
+[06/Aug/2026 22:07:26] "POST /graphql/ HTTP/1.1" 200 606
+[06/Aug/2026 22:07:54] "GET / HTTP/1.1" 200 3479
+[06/Aug/2026 22:07:54] "POST /graphql/ HTTP/1.1" 200 606
+[06/Aug/2026 22:07:54] "POST /graphql/ HTTP/1.1" 200 563
+[06/Aug/2026 22:07:54] "POST /graphql/ HTTP/1.1" 200 519
+[06/Aug/2026 22:07:54] "POST /graphql/ HTTP/1.1" 200 441
+[06/Aug/2026 22:07:55] "POST /graphql/ HTTP/1.1" 200 331
+Cannot return null for non-nullable field RatingEntry.discount.
+
+GraphQL request:1:40
+1 | { rating { rank userId username rating discount } }
+  |                                        ^
+Traceback (most recent call last):
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\graphql\execution\execute.py", line 581, in execute_field
+    completed = self.complete_value(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\graphql\execution\execute.py", line 662, in complete_value
+    raise TypeError(
+TypeError: Cannot return null for non-nullable field RatingEntry.discount.
+[06/Aug/2026 22:07:55] "POST /graphql/ HTTP/1.1" 200 183
+Not Found: /favicon.ico
+[06/Aug/2026 22:07:55] "GET /favicon.ico HTTP/1.1" 404 6966
+[06/Aug/2026 22:08:04] "POST /graphql/ HTTP/1.1" 200 563
+[06/Aug/2026 22:08:04] "POST /graphql/ HTTP/1.1" 200 563
+[06/Aug/2026 22:08:05] "POST /graphql/ HTTP/1.1" 200 519
+[06/Aug/2026 22:08:06] "POST /graphql/ HTTP/1.1" 200 242
+[06/Aug/2026 22:08:06] "POST /graphql/ HTTP/1.1" 200 152
+Cannot query field 'faculties' on type 'UniversityType'.
+
+GraphQL request:1:26
+1 | { universities { id name faculties { id name specialties { id name exams { id title subjects { id name } } } } } }
+  |                          ^
+[06/Aug/2026 22:08:18] "POST /graphql/ HTTP/1.1" 200 141
+Cannot query field 'specialties' on type 'FacultyType'.
+
+GraphQL request:1:36
+1 | { faculties { id universityId name specialties { id facultyId name } } }
+  |                                    ^
+[06/Aug/2026 22:09:05] "POST /graphql/ HTTP/1.1" 200 140
+[06/Aug/2026 22:09:46] "POST /graphql/ HTTP/1.1" 200 1072
+[06/Aug/2026 22:10:32] "GET / HTTP/1.1" 200 3479
+[06/Aug/2026 22:10:32] "POST /graphql/ HTTP/1.1" 200 606
+[06/Aug/2026 22:10:32] "POST /graphql/ HTTP/1.1" 200 563
+[06/Aug/2026 22:10:32] "POST /graphql/ HTTP/1.1" 200 519
+[06/Aug/2026 22:10:32] "POST /graphql/ HTTP/1.1" 200 441
+[06/Aug/2026 22:10:32] "POST /graphql/ HTTP/1.1" 200 331
+Cannot return null for non-nullable field RatingEntry.discount.
+
+GraphQL request:1:40
+1 | { rating { rank userId username rating discount } }
+  |                                        ^
+Traceback (most recent call last):
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\graphql\execution\execute.py", line 581, in execute_field
+    completed = self.complete_value(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\graphql\execution\execute.py", line 662, in complete_value
+    raise TypeError(
+TypeError: Cannot return null for non-nullable field RatingEntry.discount.
+Not Found: /favicon.ico
+[06/Aug/2026 22:10:32] "POST /graphql/ HTTP/1.1" 200 183
+[06/Aug/2026 22:10:32] "GET /favicon.ico HTTP/1.1" 404 6966
+[07/Aug/2026 08:24:55] "POST /graphql/ HTTP/1.1" 200 519
+Cannot return null for non-nullable field RatingEntry.discount.
+
+GraphQL request:1:40
+1 | { rating { rank userId username rating discount } }
+  |                                        ^
+Traceback (most recent call last):
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\graphql\execution\execute.py", line 581, in execute_field
+    completed = self.complete_value(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\graphql\execution\execute.py", line 662, in complete_value
+    raise TypeError(
+TypeError: Cannot return null for non-nullable field RatingEntry.discount.
+[07/Aug/2026 08:24:55] "POST /graphql/ HTTP/1.1" 200 563
+[07/Aug/2026 08:24:55] "POST /graphql/ HTTP/1.1" 200 441
+[07/Aug/2026 08:24:55] "POST /graphql/ HTTP/1.1" 200 606
+[07/Aug/2026 08:24:55] "POST /graphql/ HTTP/1.1" 200 331
+[07/Aug/2026 08:24:55] "POST /graphql/ HTTP/1.1" 200 183
+[07/Aug/2026 08:25:03] "POST /graphql/ HTTP/1.1" 200 563
+[07/Aug/2026 08:25:03] "POST /graphql/ HTTP/1.1" 200 563
+[07/Aug/2026 08:25:06] "POST /graphql/ HTTP/1.1" 200 519
+[07/Aug/2026 08:25:06] "POST /graphql/ HTTP/1.1" 200 519
+[07/Aug/2026 08:25:10] "POST /graphql/ HTTP/1.1" 200 563
+[07/Aug/2026 08:25:11] "POST /graphql/ HTTP/1.1" 200 519
+[07/Aug/2026 08:25:11] "POST /graphql/ HTTP/1.1" 200 519
+[07/Aug/2026 08:25:13] "POST /graphql/ HTTP/1.1" 200 242
+[07/Aug/2026 08:25:13] "POST /graphql/ HTTP/1.1" 200 152
+[07/Aug/2026 08:25:15] "POST /graphql/ HTTP/1.1" 200 391
+[07/Aug/2026 08:25:15] "POST /graphql/ HTTP/1.1" 200 391
+[07/Aug/2026 08:25:19] "POST /graphql/ HTTP/1.1" 200 89
+[07/Aug/2026 08:25:19] "POST /graphql/ HTTP/1.1" 200 89
+Cannot return null for non-nullable field RatingEntry.discount.
+
+GraphQL request:1:40
+1 | { rating { rank userId username rating discount } }
+  |                                        ^
+Traceback (most recent call last):
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\graphql\execution\execute.py", line 581, in execute_field
+    completed = self.complete_value(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\graphql\execution\execute.py", line 662, in complete_value
+    raise TypeError(
+TypeError: Cannot return null for non-nullable field RatingEntry.discount.
+Cannot return null for non-nullable field RatingEntry.discount.
+
+GraphQL request:1:40
+1 | { rating { rank userId username rating discount } }
+  |                                        ^
+Traceback (most recent call last):
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\graphql\execution\execute.py", line 581, in execute_field
+    completed = self.complete_value(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\graphql\execution\execute.py", line 662, in complete_value
+    raise TypeError(
+TypeError: Cannot return null for non-nullable field RatingEntry.discount.
+[07/Aug/2026 08:25:19] "POST /graphql/ HTTP/1.1" 200 183
+[07/Aug/2026 08:25:19] "POST /graphql/ HTTP/1.1" 200 183
+[07/Aug/2026 08:40:20] "GET /admin/app/user/ HTTP/1.1" 200 17690
+[07/Aug/2026 08:40:28] "POST /graphql/ HTTP/1.1" 200 563
+Cannot return null for non-nullable field RatingEntry.discount.
+
+GraphQL request:1:40
+1 | { rating { rank userId username rating discount } }
+  |                                        ^
+Traceback (most recent call last):
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\graphql\execution\execute.py", line 581, in execute_field
+    completed = self.complete_value(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\graphql\execution\execute.py", line 662, in complete_value
+    raise TypeError(
+TypeError: Cannot return null for non-nullable field RatingEntry.discount.
+[07/Aug/2026 08:40:28] "POST /graphql/ HTTP/1.1" 200 606
+[07/Aug/2026 08:40:28] "POST /graphql/ HTTP/1.1" 200 519
+[07/Aug/2026 08:40:28] "POST /graphql/ HTTP/1.1" 200 183
+[07/Aug/2026 08:40:28] "POST /graphql/ HTTP/1.1" 200 441
+[07/Aug/2026 08:40:28] "POST /graphql/ HTTP/1.1" 200 331
+[07/Aug/2026 08:52:16] "GET / HTTP/1.1" 200 3479
+[07/Aug/2026 08:52:16] "GET /static/css/style.css HTTP/1.1" 304 0
+[07/Aug/2026 08:52:16] "GET /static/js/app.js HTTP/1.1" 304 0
+Cannot return null for non-nullable field RatingEntry.discount.
+
+GraphQL request:1:40
+1 | { rating { rank userId username rating discount } }
+  |                                        ^
+Traceback (most recent call last):
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\graphql\execution\execute.py", line 581, in execute_field
+    completed = self.complete_value(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\graphql\execution\execute.py", line 662, in complete_value
+    raise TypeError(
+TypeError: Cannot return null for non-nullable field RatingEntry.discount.
+[07/Aug/2026 08:52:17] "POST /graphql/ HTTP/1.1" 200 331
+[07/Aug/2026 08:52:17] "POST /graphql/ HTTP/1.1" 200 519
+[07/Aug/2026 08:52:17] "POST /graphql/ HTTP/1.1" 200 606
+[07/Aug/2026 08:52:17] "POST /graphql/ HTTP/1.1" 200 183
+[07/Aug/2026 08:52:17] "POST /graphql/ HTTP/1.1" 200 441
+[07/Aug/2026 08:52:17] "POST /graphql/ HTTP/1.1" 200 563
+[07/Aug/2026 08:52:17] "GET / HTTP/1.1" 200 3479
+[07/Aug/2026 08:52:17] "POST /graphql/ HTTP/1.1" 200 606
+[07/Aug/2026 08:52:17] "POST /graphql/ HTTP/1.1" 200 519
+[07/Aug/2026 08:52:17] "POST /graphql/ HTTP/1.1" 200 563
+Cannot return null for non-nullable field RatingEntry.discount.
+
+GraphQL request:1:40
+1 | { rating { rank userId username rating discount } }
+  |                                        ^
+Traceback (most recent call last):
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\graphql\execution\execute.py", line 581, in execute_field
+    completed = self.complete_value(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\graphql\execution\execute.py", line 662, in complete_value
+    raise TypeError(
+TypeError: Cannot return null for non-nullable field RatingEntry.discount.
+[07/Aug/2026 08:52:17] "POST /graphql/ HTTP/1.1" 200 183
+[07/Aug/2026 08:52:17] "POST /graphql/ HTTP/1.1" 200 441
+[07/Aug/2026 08:52:17] "POST /graphql/ HTTP/1.1" 200 331
+[07/Aug/2026 08:52:23] "GET /admin/ HTTP/1.1" 200 12898
+[07/Aug/2026 08:52:23] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[07/Aug/2026 08:52:23] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[07/Aug/2026 08:52:23] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[07/Aug/2026 08:52:23] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[07/Aug/2026 08:52:23] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[07/Aug/2026 08:52:23] "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[07/Aug/2026 08:52:23] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[07/Aug/2026 08:52:23] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[07/Aug/2026 08:52:23] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+Cannot return null for non-nullable field RatingEntry.discount.
+
+GraphQL request:1:40
+1 | { rating { rank userId username rating discount } }
+  |                                        ^
+Traceback (most recent call last):
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\graphql\execution\execute.py", line 581, in execute_field
+    completed = self.complete_value(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\graphql\execution\execute.py", line 662, in complete_value
+    raise TypeError(
+TypeError: Cannot return null for non-nullable field RatingEntry.discount.
+[07/Aug/2026 10:08:02] "POST /graphql/ HTTP/1.1" 200 563
+[07/Aug/2026 10:08:02] "POST /graphql/ HTTP/1.1" 200 441
+[07/Aug/2026 10:08:02] "POST /graphql/ HTTP/1.1" 200 519
+[07/Aug/2026 10:08:02] "POST /graphql/ HTTP/1.1" 200 606
+[07/Aug/2026 10:08:02] "POST /graphql/ HTTP/1.1" 200 331
+[07/Aug/2026 10:08:02] "POST /graphql/ HTTP/1.1" 200 183
+[07/Aug/2026 10:08:17] "GET /admin/ HTTP/1.1" 302 0
+[07/Aug/2026 10:08:17] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4173
+[07/Aug/2026 10:08:17] "GET /static/admin/css/login.css HTTP/1.1" 304 0
+[07/Aug/2026 10:08:25] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4341
+[07/Aug/2026 10:08:37] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4341
+[07/Aug/2026 10:08:48] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4341
+[07/Aug/2026 10:24:37] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[07/Aug/2026 10:24:37] "GET /admin/ HTTP/1.1" 200 12898
+[07/Aug/2026 10:24:40,474] - Broken pipe from ('192.168.137.87', 6899)
+[07/Aug/2026 10:24:40] "GET /admin/app/user/ HTTP/1.1" 200 17690
+[07/Aug/2026 10:24:40] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[07/Aug/2026 10:24:40] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[07/Aug/2026 10:24:40] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[07/Aug/2026 10:24:40] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[07/Aug/2026 10:24:40] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[07/Aug/2026 10:24:40] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[07/Aug/2026 10:24:40] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[07/Aug/2026 10:24:40] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[07/Aug/2026 10:24:40] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[07/Aug/2026 10:24:40] "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+[07/Aug/2026 10:24:40] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+[07/Aug/2026 10:24:40] "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+[07/Aug/2026 10:24:40] "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+[07/Aug/2026 10:24:40] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:24:40] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[07/Aug/2026 10:24:40] "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+[07/Aug/2026 10:24:40] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+[07/Aug/2026 10:24:42,312] - Broken pipe from ('192.168.137.87', 60234)
+[07/Aug/2026 10:24:42] "GET /admin/app/user/5/change/ HTTP/1.1" 200 31815
+[07/Aug/2026 10:24:42] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[07/Aug/2026 10:24:42] "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+[07/Aug/2026 10:24:42] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+[07/Aug/2026 10:24:42] "GET /static/admin/js/SelectBox.js HTTP/1.1" 304 0
+[07/Aug/2026 10:24:42] "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 304 0
+[07/Aug/2026 10:24:42] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[07/Aug/2026 10:24:42] "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[07/Aug/2026 10:24:42] "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[07/Aug/2026 10:24:42] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:24:42] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+[07/Aug/2026 10:24:42] "GET /static/admin/img/selector-icons.svg HTTP/1.1" 304 0
+[07/Aug/2026 10:24:42] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+[07/Aug/2026 10:24:49] "GET /admin/app/user/5/password/ HTTP/1.1" 200 13556
+[07/Aug/2026 10:24:49] "GET /static/admin/css/unusable_password_field.css HTTP/1.1" 200 663
+[07/Aug/2026 10:24:49] "GET /static/admin/img/icon-alert.svg HTTP/1.1" 200 504
+[07/Aug/2026 10:24:49] "GET /static/admin/js/unusable_password_field.js HTTP/1.1" 200 1480
+[07/Aug/2026 10:25:16] "POST /admin/app/user/5/password/ HTTP/1.1" 302 0
+[07/Aug/2026 10:25:16] "GET /admin/app/user/5/change/ HTTP/1.1" 200 31951
+[07/Aug/2026 10:25:16] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:25:27] "POST /admin/app/user/5/change/ HTTP/1.1" 302 0
+[07/Aug/2026 10:25:27] "GET /admin/app/user/ HTTP/1.1" 200 17886
+[07/Aug/2026 10:25:27] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:25:51] "GET /admin/app/user/5/change/ HTTP/1.1" 200 31819
+[07/Aug/2026 10:25:51] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:25:58] "POST /admin/app/user/5/change/ HTTP/1.1" 302 0
+[07/Aug/2026 10:25:58] "GET /admin/app/user/ HTTP/1.1" 200 17886
+[07/Aug/2026 10:25:58] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:26:05] "GET /admin/app/user/5/change/ HTTP/1.1" 200 31835
+[07/Aug/2026 10:26:05] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:26:12] "POST /admin/app/user/5/change/ HTTP/1.1" 302 0
+[07/Aug/2026 10:26:12] "GET /admin/app/user/ HTTP/1.1" 200 17886
+[07/Aug/2026 10:26:12] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:26:22] "GET /admin/app/user/1/change/ HTTP/1.1" 200 31868
+[07/Aug/2026 10:26:22] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:26:24] "GET /admin/app/user/ HTTP/1.1" 200 17694
+[07/Aug/2026 10:26:26] "GET /admin/app/user/5/change/ HTTP/1.1" 200 31835
+[07/Aug/2026 10:26:26] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:26:29,153] - Broken pipe from ('192.168.137.87', 48082)
+[07/Aug/2026 10:26:29] "GET /admin/app/user/5/change/ HTTP/1.1" 200 31835
+[07/Aug/2026 10:26:41] "GET /admin/app/user/ HTTP/1.1" 200 17694
+[07/Aug/2026 10:26:42] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:26:43,902] - Broken pipe from ('192.168.137.87', 11579)
+[07/Aug/2026 10:26:43] "GET /admin/app/university/ HTTP/1.1" 200 15063
+[07/Aug/2026 10:26:44] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:26:44] "GET /admin/app/subscription/ HTTP/1.1" 200 13162
+[07/Aug/2026 10:26:44] "GET /admin/app/subscription/ HTTP/1.1" 200 13162
+[07/Aug/2026 10:26:44] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:26:45] "GET /admin/app/subject/ HTTP/1.1" 200 16285
+[07/Aug/2026 10:26:45] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:26:45] "GET /admin/app/specialty/ HTTP/1.1" 200 16765
+[07/Aug/2026 10:26:45] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:26:46] "GET /admin/app/subject/ HTTP/1.1" 200 16285
+[07/Aug/2026 10:26:46] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:26:54] "GET /admin/app/entranceexam/ HTTP/1.1" 200 15974
+[07/Aug/2026 10:26:54] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:27:05] "GET /admin/app/university/ HTTP/1.1" 200 15063
+[07/Aug/2026 10:27:05] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:27:07] "GET /admin/app/university/8/change/ HTTP/1.1" 200 14469
+[07/Aug/2026 10:27:07] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:27:30,145] - Broken pipe from ('192.168.137.87', 29185)
+[07/Aug/2026 10:27:30] "POST /admin/app/university/8/change/ HTTP/1.1" 302 0
+[07/Aug/2026 10:27:30] "GET /admin/app/university/ HTTP/1.1" 200 15217
+[07/Aug/2026 10:27:30] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:27:32] "GET /admin/app/university/7/change/ HTTP/1.1" 200 14487
+[07/Aug/2026 10:27:32] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:27:49] "POST /admin/app/university/7/change/ HTTP/1.1" 302 0
+[07/Aug/2026 10:27:49] "GET /admin/app/university/ HTTP/1.1" 200 15154
+[07/Aug/2026 10:27:49] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:27:55] "GET /admin/app/subscription/ HTTP/1.1" 200 13162
+[07/Aug/2026 10:27:55] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:27:59] "GET /admin/app/subscription/add/ HTTP/1.1" 200 16137
+[07/Aug/2026 10:27:59] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:28:14,944] - Broken pipe from ('192.168.137.87', 8631)
+[07/Aug/2026 10:28:14] "GET /admin/app/university/ HTTP/1.1" 200 14951
+[07/Aug/2026 10:28:15] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:28:15] "GET /admin/app/user/ HTTP/1.1" 200 17694
+[07/Aug/2026 10:28:16] "GET /admin/app/user/ HTTP/1.1" 200 17694
+[07/Aug/2026 10:28:16] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:43:13] "GET /admin/app/user/ HTTP/1.1" 200 17694
+[07/Aug/2026 10:43:13] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:43:17,575] - Broken pipe from ('192.168.137.87', 26317)
+[07/Aug/2026 10:43:17] "GET /admin/app/user/5/change/ HTTP/1.1" 200 31835
+[07/Aug/2026 10:43:17] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:46:15] "GET /admin/app/user/5/change/ HTTP/1.1" 200 32070
+[07/Aug/2026 10:46:15] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:46:17] "GET /admin/app/user/5/change/ HTTP/1.1" 200 32070
+[07/Aug/2026 10:46:17] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:46:17] "GET /admin/app/user/5/change/ HTTP/1.1" 200 32070
+[07/Aug/2026 10:46:17] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:46:18] "GET /admin/app/user/5/change/ HTTP/1.1" 200 32070
+[07/Aug/2026 10:46:18] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:46:18] "GET /admin/app/user/5/change/ HTTP/1.1" 200 32070
+[07/Aug/2026 10:46:18] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:46:18] "GET /admin/app/user/5/change/ HTTP/1.1" 200 32070
+[07/Aug/2026 10:46:18] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:46:19] "GET /admin/app/user/5/change/ HTTP/1.1" 200 32070
+[07/Aug/2026 10:46:19] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:46:20] "GET /admin/app/user/5/change/ HTTP/1.1" 200 32070
+[07/Aug/2026 10:46:20] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:46:38] "GET /admin/app/user/5/change/ HTTP/1.1" 200 32070
+[07/Aug/2026 10:46:38] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:46:38] "GET /admin/app/user/5/change/ HTTP/1.1" 200 32070
+[07/Aug/2026 10:46:39] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:46:39] "GET /admin/app/user/5/change/ HTTP/1.1" 200 32070
+[07/Aug/2026 10:46:39] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:47:26] "GET /admin/app/user/5/change/ HTTP/1.1" 200 32070
+[07/Aug/2026 10:47:26] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:47:27] "GET /admin/app/user/5/change/ HTTP/1.1" 200 32070
+[07/Aug/2026 10:47:27] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:47:28] "GET /admin/app/user/5/change/ HTTP/1.1" 200 32070
+[07/Aug/2026 10:47:28] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:47:28] "GET /admin/app/user/5/change/ HTTP/1.1" 200 32070
+[07/Aug/2026 10:47:28] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:47:28] "GET /admin/app/user/5/change/ HTTP/1.1" 200 32070
+[07/Aug/2026 10:47:28] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:47:28] "GET /admin/app/user/5/change/ HTTP/1.1" 200 32070
+[07/Aug/2026 10:47:28] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:47:29] "GET /admin/app/user/5/change/ HTTP/1.1" 200 32070
+[07/Aug/2026 10:47:29] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:48:38] "GET /admin/app/user/5/change/ HTTP/1.1" 200 32070
+[07/Aug/2026 10:48:38] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:48:39] "GET /admin/app/user/5/change/ HTTP/1.1" 200 32070
+[07/Aug/2026 10:48:39] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:48:39] "GET /admin/app/user/5/change/ HTTP/1.1" 200 32070
+[07/Aug/2026 10:48:39] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:48:56] "GET /admin/app/user/5/change/ HTTP/1.1" 200 32070
+[07/Aug/2026 10:48:56] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:48:56] "GET /admin/app/user/5/change/ HTTP/1.1" 200 32070
+[07/Aug/2026 10:48:56] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:48:57] "GET /admin/app/user/5/change/ HTTP/1.1" 200 32070
+[07/Aug/2026 10:48:57] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:48:57] "GET /admin/app/user/5/change/ HTTP/1.1" 200 32070
+[07/Aug/2026 10:48:57] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:48:57] "GET /admin/app/user/5/change/ HTTP/1.1" 200 32070
+[07/Aug/2026 10:48:57] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:48:57] "GET /admin/app/user/5/change/ HTTP/1.1" 200 32070
+[07/Aug/2026 10:48:57] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:48:57] "GET /admin/app/user/5/change/ HTTP/1.1" 200 32070
+[07/Aug/2026 10:48:58] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:48:58] "GET /admin/app/user/5/change/ HTTP/1.1" 200 32070
+[07/Aug/2026 10:48:58] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:48:58] "GET /admin/app/user/5/change/ HTTP/1.1" 200 32070
+[07/Aug/2026 10:48:58] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:48:58] "GET /admin/app/user/5/change/ HTTP/1.1" 200 32070
+[07/Aug/2026 10:48:58] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 10:48:59] "GET /admin/app/user/5/change/ HTTP/1.1" 200 32070
+[07/Aug/2026 10:48:59] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+[07/Aug/2026 11:18:42] "GET / HTTP/1.1" 200 3479
+[07/Aug/2026 11:18:42] "GET /static/js/app.js HTTP/1.1" 304 0
+[07/Aug/2026 11:18:42] "GET /static/css/style.css HTTP/1.1" 304 0
+connection to server at "localhost" (::1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+GraphQL request:1:3
+1 | { universities { id name city description } }
+  |   ^
+Traceback (most recent call last):
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 279, in ensure_connection
+    self.connect()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 256, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\postgresql\base.py", line 332, in get_new_connection
+    connection = self.Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\graphql\execution\execute.py", line 562, in execute_field
+    result = resolve_fn(source, info, **args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 1049, in _resolver
+    return _get_result_with_extensions(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 1035, in extension_resolver
+    return reduce(
+           ^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 1027, in wrapped_get_result
+    return _get_result(
+           ^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 913, in _get_result
+    return field.get_result(
+           ^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\types\field.py", line 232, in get_result
+    return self.base_resolver(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\types\fields\resolver.py", line 238, in __call__
+    return self.wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\synagchy\app\presentation\graphql\schema.py", line 140, in universities
+    return [
+           ^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\query.py", line 386, in __iter__
+    self._fetch_all()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\query.py", line 1954, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\query.py", line 93, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1621, in execute_sql
+    cursor = self.connection.cursor()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 320, in cursor
+    return self._cursor()
+           ^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 296, in _cursor
+    self.ensure_connection()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 278, in ensure_connection
+    with self.wrap_database_errors:
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 279, in ensure_connection
+    self.connect()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 256, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\postgresql\base.py", line 332, in get_new_connection
+    connection = self.Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: connection to server at "localhost" (::1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[07/Aug/2026 11:18:47] "POST /graphql/ HTTP/1.1" 200 464
+connection to server at "localhost" (::1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+GraphQL request:1:3
+1 | { exams { id specialtyId title description } }
+  |   ^
+Traceback (most recent call last):
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 279, in ensure_connection
+    self.connect()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 256, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\postgresql\base.py", line 332, in get_new_connection
+    connection = self.Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\graphql\execution\execute.py", line 562, in execute_field
+    result = resolve_fn(source, info, **args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 1049, in _resolver
+    return _get_result_with_extensions(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 1035, in extension_resolver
+    return reduce(
+           ^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 1027, in wrapped_get_result
+    return _get_result(
+           ^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 913, in _get_result
+    return field.get_result(
+           ^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\types\field.py", line 232, in get_result
+    return self.base_resolver(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\types\fields\resolver.py", line 238, in __call__
+    return self.wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\synagchy\app\presentation\graphql\schema.py", line 166, in exams
+    return [
+           ^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\query.py", line 386, in __iter__
+    self._fetch_all()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\query.py", line 1954, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\query.py", line 93, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1621, in execute_sql
+    cursor = self.connection.cursor()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 320, in cursor
+    return self._cursor()
+           ^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 296, in _cursor
+    self.ensure_connection()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 278, in ensure_connection
+    with self.wrap_database_errors:
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 279, in ensure_connection
+    self.connect()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 256, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\postgresql\base.py", line 332, in get_new_connection
+    connection = self.Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: connection to server at "localhost" (::1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[07/Aug/2026 11:18:47] "POST /graphql/ HTTP/1.1" 200 457
+connection to server at "localhost" (::1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+GraphQL request:1:3
+1 | { subjects { id examId name maxScore } }
+  |   ^
+Traceback (most recent call last):
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 279, in ensure_connection
+    self.connect()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 256, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\postgresql\base.py", line 332, in get_new_connection
+    connection = self.Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\graphql\execution\execute.py", line 562, in execute_field
+    result = resolve_fn(source, info, **args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 1049, in _resolver
+    return _get_result_with_extensions(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 1035, in extension_resolver
+    return reduce(
+           ^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 1027, in wrapped_get_result
+    return _get_result(
+           ^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 913, in _get_result
+    return field.get_result(
+           ^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\types\field.py", line 232, in get_result
+    return self.base_resolver(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\types\fields\resolver.py", line 238, in __call__
+    return self.wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\synagchy\app\presentation\graphql\schema.py", line 184, in subjects
+    return [
+           ^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\query.py", line 386, in __iter__
+    self._fetch_all()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\query.py", line 1954, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\query.py", line 93, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1621, in execute_sql
+    cursor = self.connection.cursor()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 320, in cursor
+    return self._cursor()
+           ^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 296, in _cursor
+    self.ensure_connection()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 278, in ensure_connection
+    with self.wrap_database_errors:
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 279, in ensure_connection
+    self.connect()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 256, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\postgresql\base.py", line 332, in get_new_connection
+    connection = self.Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: connection to server at "localhost" (::1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Not Found: /swagger
+[07/Aug/2026 11:18:47] "POST /graphql/ HTTP/1.1" 200 460
+[07/Aug/2026 11:18:47] "GET /swagger HTTP/1.1" 404 6959
+connection to server at "localhost" (::1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+GraphQL request:1:3
+1 | { faculties { id universityId name description } }
+  |   ^
+Traceback (most recent call last):
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 279, in ensure_connection
+    self.connect()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 256, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\postgresql\base.py", line 332, in get_new_connection
+    connection = self.Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\graphql\execution\execute.py", line 562, in execute_field
+    result = resolve_fn(source, info, **args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 1049, in _resolver
+    return _get_result_with_extensions(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 1035, in extension_resolver
+    return reduce(
+           ^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 1027, in wrapped_get_result
+    return _get_result(
+           ^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 913, in _get_result
+    return field.get_result(
+           ^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\types\field.py", line 232, in get_result
+    return self.base_resolver(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\types\fields\resolver.py", line 238, in __call__
+    return self.wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\synagchy\app\presentation\graphql\schema.py", line 148, in faculties
+    return [
+           ^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\query.py", line 386, in __iter__
+    self._fetch_all()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\query.py", line 1954, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\query.py", line 93, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1621, in execute_sql
+    cursor = self.connection.cursor()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 320, in cursor
+    return self._cursor()
+           ^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 296, in _cursor
+    self.ensure_connection()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 278, in ensure_connection
+    with self.wrap_database_errors:
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 279, in ensure_connection
+    self.connect()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 256, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\postgresql\base.py", line 332, in get_new_connection
+    connection = self.Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: connection to server at "localhost" (::1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[07/Aug/2026 11:18:47] "POST /graphql/ HTTP/1.1" 200 461
+connection to server at "localhost" (::1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+GraphQL request:1:3
+1 | { specialties { id facultyId name description } }
+  |   ^
+Traceback (most recent call last):
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 279, in ensure_connection
+    self.connect()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 256, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\postgresql\base.py", line 332, in get_new_connection
+    connection = self.Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\graphql\execution\execute.py", line 562, in execute_field
+    result = resolve_fn(source, info, **args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 1049, in _resolver
+    return _get_result_with_extensions(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 1035, in extension_resolver
+    return reduce(
+           ^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 1027, in wrapped_get_result
+    return _get_result(
+           ^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 913, in _get_result
+    return field.get_result(
+           ^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\types\field.py", line 232, in get_result
+    return self.base_resolver(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\types\fields\resolver.py", line 238, in __call__
+    return self.wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\synagchy\app\presentation\graphql\schema.py", line 157, in specialties
+    return [
+           ^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\query.py", line 386, in __iter__
+    self._fetch_all()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\query.py", line 1954, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\query.py", line 93, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1621, in execute_sql
+    cursor = self.connection.cursor()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 320, in cursor
+    return self._cursor()
+           ^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 296, in _cursor
+    self.ensure_connection()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 278, in ensure_connection
+    with self.wrap_database_errors:
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 279, in ensure_connection
+    self.connect()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 256, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\postgresql\base.py", line 332, in get_new_connection
+    connection = self.Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: connection to server at "localhost" (::1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[07/Aug/2026 11:18:48] "POST /graphql/ HTTP/1.1" 200 463
+connection to server at "localhost" (::1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+GraphQL request:1:3
+1 | { rating { rank userId username rating discount } }
+  |   ^
+Traceback (most recent call last):
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 279, in ensure_connection
+    self.connect()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 256, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\postgresql\base.py", line 332, in get_new_connection
+    connection = self.Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\graphql\execution\execute.py", line 562, in execute_field
+    result = resolve_fn(source, info, **args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 1049, in _resolver
+    return _get_result_with_extensions(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 1035, in extension_resolver
+    return reduce(
+           ^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 1027, in wrapped_get_result
+    return _get_result(
+           ^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 913, in _get_result
+    return field.get_result(
+           ^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\types\field.py", line 232, in get_result
+    return self.base_resolver(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\types\fields\resolver.py", line 238, in __call__
+    return self.wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\synagchy\app\presentation\graphql\schema.py", line 255, in rating
+    for i, u in enumerate(users):
+                ^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\query.py", line 386, in __iter__
+    self._fetch_all()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\query.py", line 1954, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\query.py", line 93, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1621, in execute_sql
+    cursor = self.connection.cursor()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 320, in cursor
+    return self._cursor()
+           ^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 296, in _cursor
+    self.ensure_connection()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 278, in ensure_connection
+    with self.wrap_database_errors:
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 279, in ensure_connection
+    self.connect()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 256, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\postgresql\base.py", line 332, in get_new_connection
+    connection = self.Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: connection to server at "localhost" (::1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[07/Aug/2026 11:18:48] "POST /graphql/ HTTP/1.1" 200 458
+Not Found: /swagger/
+[07/Aug/2026 11:18:58] "GET /swagger/ HTTP/1.1" 404 6962
+[07/Aug/2026 11:19:16] "GET / HTTP/1.1" 200 3479
+connection to server at "localhost" (::1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+GraphQL request:1:3
+1 | { rating { rank userId username rating discount } }
+  |   ^
+Traceback (most recent call last):
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 279, in ensure_connection
+    self.connect()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 256, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\postgresql\base.py", line 332, in get_new_connection
+    connection = self.Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\graphql\execution\execute.py", line 562, in execute_field
+    result = resolve_fn(source, info, **args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 1049, in _resolver
+    return _get_result_with_extensions(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 1035, in extension_resolver
+    return reduce(
+           ^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 1027, in wrapped_get_result
+    return _get_result(
+           ^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 913, in _get_result
+    return field.get_result(
+           ^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\types\field.py", line 232, in get_result
+    return self.base_resolver(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\types\fields\resolver.py", line 238, in __call__
+    return self.wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\synagchy\app\presentation\graphql\schema.py", line 255, in rating
+    for i, u in enumerate(users):
+                ^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\query.py", line 386, in __iter__
+    self._fetch_all()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\query.py", line 1954, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\query.py", line 93, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1621, in execute_sql
+    cursor = self.connection.cursor()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 320, in cursor
+    return self._cursor()
+           ^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 296, in _cursor
+    self.ensure_connection()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 278, in ensure_connection
+    with self.wrap_database_errors:
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 279, in ensure_connection
+    self.connect()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 256, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\postgresql\base.py", line 332, in get_new_connection
+    connection = self.Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: connection to server at "localhost" (::1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[07/Aug/2026 11:19:21] "POST /graphql/ HTTP/1.1" 200 458
+connection to server at "localhost" (::1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+GraphQL request:1:3
+1 | { specialties { id facultyId name description } }
+  |   ^
+Traceback (most recent call last):
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 279, in ensure_connection
+    self.connect()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 256, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\postgresql\base.py", line 332, in get_new_connection
+    connection = self.Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\graphql\execution\execute.py", line 562, in execute_field
+    result = resolve_fn(source, info, **args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 1049, in _resolver
+    return _get_result_with_extensions(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 1035, in extension_resolver
+    return reduce(
+           ^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 1027, in wrapped_get_result
+    return _get_result(
+           ^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 913, in _get_result
+    return field.get_result(
+           ^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\types\field.py", line 232, in get_result
+    return self.base_resolver(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\types\fields\resolver.py", line 238, in __call__
+    return self.wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\synagchy\app\presentation\graphql\schema.py", line 157, in specialties
+    return [
+           ^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\query.py", line 386, in __iter__
+    self._fetch_all()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\query.py", line 1954, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\query.py", line 93, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1621, in execute_sql
+    cursor = self.connection.cursor()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 320, in cursor
+    return self._cursor()
+           ^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 296, in _cursor
+    self.ensure_connection()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 278, in ensure_connection
+    with self.wrap_database_errors:
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 279, in ensure_connection
+    self.connect()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 256, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\postgresql\base.py", line 332, in get_new_connection
+    connection = self.Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: connection to server at "localhost" (::1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[07/Aug/2026 11:19:21] "POST /graphql/ HTTP/1.1" 200 463
+connection to server at "localhost" (::1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+GraphQL request:1:3
+1 | { subjects { id examId name maxScore } }
+  |   ^
+Traceback (most recent call last):
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 279, in ensure_connection
+    self.connect()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 256, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\postgresql\base.py", line 332, in get_new_connection
+    connection = self.Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\graphql\execution\execute.py", line 562, in execute_field
+    result = resolve_fn(source, info, **args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 1049, in _resolver
+    return _get_result_with_extensions(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 1035, in extension_resolver
+    return reduce(
+           ^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 1027, in wrapped_get_result
+    return _get_result(
+           ^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 913, in _get_result
+    return field.get_result(
+           ^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\types\field.py", line 232, in get_result
+    return self.base_resolver(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\types\fields\resolver.py", line 238, in __call__
+    return self.wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\synagchy\app\presentation\graphql\schema.py", line 184, in subjects
+    return [
+           ^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\query.py", line 386, in __iter__
+    self._fetch_all()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\query.py", line 1954, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\query.py", line 93, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1621, in execute_sql
+    cursor = self.connection.cursor()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 320, in cursor
+    return self._cursor()
+           ^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 296, in _cursor
+    self.ensure_connection()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 278, in ensure_connection
+    with self.wrap_database_errors:
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 279, in ensure_connection
+    self.connect()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 256, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\postgresql\base.py", line 332, in get_new_connection
+    connection = self.Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: connection to server at "localhost" (::1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[07/Aug/2026 11:19:21] "POST /graphql/ HTTP/1.1" 200 460
+connection to server at "localhost" (::1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+GraphQL request:1:3
+1 | { faculties { id universityId name description } }
+  |   ^
+Traceback (most recent call last):
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 279, in ensure_connection
+    self.connect()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 256, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\postgresql\base.py", line 332, in get_new_connection
+    connection = self.Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\graphql\execution\execute.py", line 562, in execute_field
+    result = resolve_fn(source, info, **args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 1049, in _resolver
+    return _get_result_with_extensions(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 1035, in extension_resolver
+    return reduce(
+           ^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 1027, in wrapped_get_result
+    return _get_result(
+           ^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 913, in _get_result
+    return field.get_result(
+           ^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\types\field.py", line 232, in get_result
+    return self.base_resolver(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\types\fields\resolver.py", line 238, in __call__
+    return self.wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\synagchy\app\presentation\graphql\schema.py", line 148, in faculties
+    return [
+           ^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\query.py", line 386, in __iter__
+    self._fetch_all()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\query.py", line 1954, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\query.py", line 93, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1621, in execute_sql
+    cursor = self.connection.cursor()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 320, in cursor
+    return self._cursor()
+           ^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 296, in _cursor
+    self.ensure_connection()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 278, in ensure_connection
+    with self.wrap_database_errors:
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 279, in ensure_connection
+    self.connect()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 256, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\postgresql\base.py", line 332, in get_new_connection
+    connection = self.Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: connection to server at "localhost" (::1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[07/Aug/2026 11:19:21] "POST /graphql/ HTTP/1.1" 200 461
+connection to server at "localhost" (::1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+GraphQL request:1:3
+1 | { exams { id specialtyId title description } }
+  |   ^
+Traceback (most recent call last):
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 279, in ensure_connection
+    self.connect()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 256, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\postgresql\base.py", line 332, in get_new_connection
+    connection = self.Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\graphql\execution\execute.py", line 562, in execute_field
+    result = resolve_fn(source, info, **args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 1049, in _resolver
+    return _get_result_with_extensions(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 1035, in extension_resolver
+    return reduce(
+           ^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 1027, in wrapped_get_result
+    return _get_result(
+           ^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 913, in _get_result
+    return field.get_result(
+           ^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\types\field.py", line 232, in get_result
+    return self.base_resolver(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\types\fields\resolver.py", line 238, in __call__
+    return self.wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\synagchy\app\presentation\graphql\schema.py", line 166, in exams
+    return [
+           ^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\query.py", line 386, in __iter__
+    self._fetch_all()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\query.py", line 1954, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\query.py", line 93, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1621, in execute_sql
+    cursor = self.connection.cursor()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 320, in cursor
+    return self._cursor()
+           ^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 296, in _cursor
+    self.ensure_connection()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 278, in ensure_connection
+    with self.wrap_database_errors:
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 279, in ensure_connection
+    self.connect()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 256, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\postgresql\base.py", line 332, in get_new_connection
+    connection = self.Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: connection to server at "localhost" (::1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[07/Aug/2026 11:19:21] "POST /graphql/ HTTP/1.1" 200 457
+connection to server at "localhost" (::1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+GraphQL request:1:3
+1 | { universities { id name city description } }
+  |   ^
+Traceback (most recent call last):
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 279, in ensure_connection
+    self.connect()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 256, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\postgresql\base.py", line 332, in get_new_connection
+    connection = self.Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\graphql\execution\execute.py", line 562, in execute_field
+    result = resolve_fn(source, info, **args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 1049, in _resolver
+    return _get_result_with_extensions(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 1035, in extension_resolver
+    return reduce(
+           ^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 1027, in wrapped_get_result
+    return _get_result(
+           ^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\schema\schema_converter.py", line 913, in _get_result
+    return field.get_result(
+           ^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\types\field.py", line 232, in get_result
+    return self.base_resolver(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\strawberry\types\fields\resolver.py", line 238, in __call__
+    return self.wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\synagchy\app\presentation\graphql\schema.py", line 140, in universities
+    return [
+           ^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\query.py", line 386, in __iter__
+    self._fetch_all()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\query.py", line 1954, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\query.py", line 93, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1621, in execute_sql
+    cursor = self.connection.cursor()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 320, in cursor
+    return self._cursor()
+           ^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 296, in _cursor
+    self.ensure_connection()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 278, in ensure_connection
+    with self.wrap_database_errors:
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 279, in ensure_connection
+    self.connect()
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\base\base.py", line 256, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\django\db\backends\postgresql\base.py", line 332, in get_new_connection
+    connection = self.Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Digital_Creator\Desktop\Nepes\synagchy2\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: connection to server at "localhost" (::1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[07/Aug/2026 11:19:21] "POST /graphql/ HTTP/1.1" 200 464
+Not Found: /swagger/
+[07/Aug/2026 11:20:09] "GET /swagger/ HTTP/1.1" 404 6962
+^C

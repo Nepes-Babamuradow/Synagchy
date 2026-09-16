@@ -1,0 +1,13 @@
+setuptools==75.3.0
+Django==5.2.16
+djangorestframework==3.17.1
+djangorestframework-simplejwt==5.3.1
+psycopg2-binary==2.9.12
+strawberry-graphql==0.323.2
+graphql-core==3.2.11
+gunicorn==23.0.0
+Pillow==12.3.0
+whitenoise==6.7.0
+drf-yasg==1.21.7
+django-rosetta==0.10.3
+django-ckeditor
