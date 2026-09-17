@@ -1,20 +1,25 @@
 from django.apps import AppConfig
-from django.db.models.signals import post_migrate
-
-
-def _run_initial_data(sender, **kwargs):
-    try:
-        from .initial_data import create_initial_data
-        create_initial_data()
-    except Exception:
-        # Avoid breaking migrations if seeding fails; log to stdout
-        import sys
-        print('initial_data: failed to run seeding', file=sys.stderr)
 
 
 class AppConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
     name = 'app'
+    label = 'app'
 
     def ready(self):
-        post_migrate.connect(_run_initial_data, sender=self)
+        """Post-migrate signal to load initial data."""
+        from django.db.models.signals import post_migrate
+        from django.dispatch import receiver
+        from django.core.management import call_command
+
+        @receiver(post_migrate)
+        def load_initial_data(sender, **kwargs):
+            if kwargs.get('app_config'):
+                app_config = kwargs['app_config']
+                if app_config.name == 'app':
+                    try:
+                        from app.infrastructure.database.models import Subject
+                        if not Subject.objects.exists():
+                            call_command('loaddata', 'initial_data.json', verbosity=0)
+                    except Exception:
+                        pass
